@@ -24,7 +24,7 @@ configure(subprojects) {
 
 subprojects {
     version = '0.0.1-SNAPSHOT'
-    ext.appName = 'GameFramework'
+    ext.appName = 'JigsawPuzzle'
     repositories {
         mavenLocal()
         mavenCentral()
@@ -34,4 +34,4 @@ subprojects {
     }
 }
 
-eclipse.project.name = 'GameFramework' + '-parent'
+eclipse.project.name = 'JigsawPuzzle' + '-parent'
